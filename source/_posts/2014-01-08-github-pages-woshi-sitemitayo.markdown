@@ -15,13 +15,13 @@ GitHub Pagesを試してみました。
 ほとんど参考記事のまねっこだけど、私が試したことをメモメモ…。
 
 
-###1　GitHub にリポジトリを作成
+##1　GitHub にリポジトリを作成
 
 リポジトリ名は [username].github.io にします。  
 [username]には自分のユーザ名を入れます。  
 私の場合は、ユーザー名が hooooooh なので、「hooooooh.github.io」で作成しました。  
 
-###2　Octopress をセットアップ
+##2　Octopress をセットアップ
 
 Octopress は jekyll を使って作るブログ構築用のフレームワークで、  
 GitHub Pages と組み合わせると、とても簡単にブログが作れる。
@@ -43,7 +43,7 @@ GitHub Pages と組み合わせると、とても簡単にブログが作れる�
 
 できたー。
 
-###3　_config.yml に設定項目を記入
+##3　_config.yml に設定項目を記入
 公式サイトの_config.yml設定の部分を見ながら必要なところだけ記入  
 [http://octopress.org/docs/configuring/](http://octopress.org/docs/configuring/)
 
@@ -54,18 +54,18 @@ GitHub Pages と組み合わせると、とても簡単にブログが作れる�
     simple_search: http://google.com/search
     description:
 
-###4　記事を作成する
+##4　記事を作成する
 記事のタイトルをきめて以下を実行します。
     bundle exec rake new_post['記事のタイトル']
 
 そうすると、source/_post/YYYY-MM-DD-title.markdownが作られるので  
 あとは、Markdownやhtmlで記事を書きます。
 
-###5　ローカルで確認
+##5　ローカルで確認
 以下を実行してブラウザで http://localhost:4000/ にアクセスしたらローカルで確認できます。
     bundle exec rake preview
 
-###6　テーマを変える
+##6　テーマを変える
 テーマいろいろあるけど…  
 [http://opthemes.com/](http://opthemes.com/)  
 わたしは darkStripes というテーマにしてみました。  
@@ -74,7 +74,7 @@ GitHub Pages と組み合わせると、とても簡単にブログが作れる�
     git clone https://github.com/amelandri/darkstripes.git .themes/darkstripes
     bundle exec rake install['darkstripes']
 
-###7　GitPageへデプロイする
+##7　GitPageへデプロイする
 以下を実行してデプロイします。
     bundle exec rake deploy
 
