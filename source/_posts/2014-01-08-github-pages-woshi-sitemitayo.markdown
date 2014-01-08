@@ -56,7 +56,7 @@ GitHub Pages と組み合わせると、とても簡単にブログが作れる�
 
 ###4　記事を作成する
 記事のタイトルをきめて以下を実行します。
-    rake new_post['記事のタイトル']
+    bundle exec rake new_post['記事のタイトル']
 
 そうすると、source/_post/YYYY-MM-DD-title.markdownが作られるので  
 あとは、Markdownやhtmlで記事を書きます。
