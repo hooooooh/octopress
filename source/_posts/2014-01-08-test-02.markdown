@@ -1,0 +1,12 @@
+---
+layout: post
+title: "test_02"
+date: 2014-01-08 12:02:26 +0900
+comments: true
+categories: 
+---
+# fuga
+
+    1行目
+    2行目
+    3行目
