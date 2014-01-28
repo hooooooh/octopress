@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MySQL2 Errorが出る"
+title: "MySQL2 Errorが出るよ"
 date: 2014-01-17 13:36:14 +0900
 comments: true
 categories: 
