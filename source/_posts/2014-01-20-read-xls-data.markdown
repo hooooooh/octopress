@@ -8,8 +8,8 @@ categories:
 Excel のデータを読み込んで JSON にする処理があったので、  
 スプレッドシートをパース出来る roo という gem を使ってみました。    
 
-[roo のGitHubページ](https://github.com/Empact/roo)  
-[roo の公式サイト](http://roo.rubyforge.org/)
+[rooのGitHubページ](https://github.com/Empact/roo)  
+[rooの公式サイト](http://roo.rubyforge.org/)
 
 
 ##1　Gemfile に gem roo を追加
