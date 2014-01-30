@@ -15,7 +15,10 @@ Excel のデータを読み込んで JSON にする処理があったので、
 ##1　Gemfile に gem roo を追加
     gem 'roo'
 
-##2　Excel を読み込んで JSON にする処理
+##2　gemをインストール
+    bundle install
+
+##3　Excel を読み込んで JSON にする処理
 
 こんな xlsx を読み込みたい  
 ![](../images/2014-01-20-read-xls-data/xls_img_01.png =245x202)
@@ -47,5 +50,5 @@ Excel のデータを読み込んで JSON にする処理があったので、
         render json: data_list
     end
 
-##3　JSONできました
+JSONできました
 [{"name":"aaa","mail_address":"bbb@ccc.com"},{"name":"hoge","mail_address":"fuga@piyo.com"}]    
