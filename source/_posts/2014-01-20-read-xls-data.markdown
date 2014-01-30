@@ -50,5 +50,5 @@ Excel のデータを読み込んで JSON にする処理があったので、
         render json: data_list
     end
 
-JSONできました
+JSONできました  
 [{"name":"aaa","mail_address":"bbb@ccc.com"},{"name":"hoge","mail_address":"fuga@piyo.com"}]    
