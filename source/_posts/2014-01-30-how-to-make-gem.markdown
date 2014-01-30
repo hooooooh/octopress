@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gem をつくってみたい"
+title: "Gem をつくってみたいよ"
 date: 2014-01-30 10:31:55 +0900
 comments: true
 categories: 
